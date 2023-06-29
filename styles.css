@@ -31,6 +31,9 @@
     width: auto;
     line-height: 40px;    
 }
+.login_bar:hover{
+  color: #fc8019;
+}
 
 .signup_bar{
     position: relative;
@@ -250,4 +253,90 @@ h3{
   .play_store img,
   .app_store img{
     height: 57px;
+  }
+
+  .footer_section{
+    display: flex;
+    position: relative;
+    top: 25px;
+    background-color: rgb(0, 0, 0);
+    height: 480px;
+    /* background-size: cover; */
+  }
+
+  .footer_section_link{
+    display: flex;
+    position: relative;
+    top: 60px;
+  }
+
+  .footer_container{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    top: 84px;
+    left: 426px;
+  }
+ 
+  .store__play img{
+    margin-top: 28px;
+  }
+  .store__play img,
+  .store__app img{
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 13px;
+  }
+
+  .link_heading{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .link_container,
+  .link_container1,
+  .link_container2{
+    position: relative;
+    left: 140px; 
+    width: 100%;   
+  }
+  
+  .link_container2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 15%;
+  }
+  .link_container1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 12%;
+  }
+
+  .footer_link{
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 230%;
+    position: relative;
+    top: 28px;
+  }
+  .footer_link:hover{
+    color: white;
+    font-weight: bold;
+    font-weight: 500;
+  }
+
+  .pic:hover{
+    transform: scale(1.05);
+  }
+  .pic{
+    transition-timing-function: ease-in;
   }
